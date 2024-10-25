@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Invalid username or password')),
+        SnackBar(content: Text('Username atau Password salah')),
       );
     }
   }
@@ -92,7 +92,8 @@ class DashboardPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Berhasil masuk ke dashboard!',
+          'Berhasil masuk ke dashboard!'
+          'Klik tombol dikanan atas untuk kembali ke halaman login',
           style: TextStyle(fontSize: 24),
         ),
       ),
