@@ -92,8 +92,7 @@ class DashboardPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Berhasil masuk ke dashboard!'
-          'Klik tombol dikanan atas untuk kembali ke halaman login',
+          'Berhasil masuk ke dashboard!\n Klik tombol dikanan atas untuk kembali ke halaman login',
           style: TextStyle(fontSize: 24),
         ),
       ),
