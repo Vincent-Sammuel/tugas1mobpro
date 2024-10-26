@@ -1,4 +1,4 @@
-// dashboard_page.dart
+// dashboard.dart
 import 'package:flutter/material.dart';
 import 'login.dart';
 
@@ -9,14 +9,17 @@ class DashboardPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Dashboard'),
         actions: [
-          IconButton(
-            icon: Icon(Icons.logout),
+          TextButton(
             onPressed: () {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(builder: (context) => LoginPage()),
               );
             },
+            child: Text(
+              'Log Out',
+              style: TextStyle(color: Colors.black),
+            ),
           ),
         ],
       ),
