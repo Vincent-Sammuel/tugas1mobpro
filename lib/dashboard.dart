@@ -37,7 +37,7 @@ class DashboardPage extends StatelessWidget {
             ),
             SizedBox(height: 10), // Space between username and main text
             Text(
-              'Berhasil masuk ke dashboard!\nMasih dalam tahap pengembangan',
+              'Berhasil masuk ke dashboard!\nSabar Ya!\nMasih dalam tahap pengembangan',
               style: TextStyle(fontSize: 24),
               textAlign: TextAlign.center,
             ),
