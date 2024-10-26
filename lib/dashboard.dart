@@ -31,7 +31,7 @@ class DashboardPage extends StatelessWidget {
             ),
             SizedBox(height: 20), // Add space between text and image
             Image.asset(
-              'assets/Under Constructions 👇.png',
+              'assets/engineer.jpeg',
               width: 200, // Set the width as needed
               height: 200, // Set the height as needed
               fit: BoxFit.cover,
