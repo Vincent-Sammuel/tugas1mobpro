@@ -15,10 +15,11 @@ class _LoginPageState extends State<LoginPage> {
     String username = _usernameController.text;
     String password = _passwordController.text;
 
-    if (username == 'username123' && password == 'password123') {
+    if (username == 'Kenji' && password == 'Kenji123') {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => DashboardPage()),
+        MaterialPageRoute(
+            builder: (context) => DashboardPage(username: username)),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(

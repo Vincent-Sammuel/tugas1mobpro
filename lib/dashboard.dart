@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 
 class DashboardPage extends StatelessWidget {
+  final String username;
+
+  DashboardPage({required this.username});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,6 +31,11 @@ class DashboardPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text(
+              'Hello, $username!',
+              style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 10), // Space between username and main text
             Text(
               'Berhasil masuk ke dashboard!\nMasih dalam tahap pengembangan',
               style: TextStyle(fontSize: 24),
