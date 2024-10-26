@@ -28,7 +28,7 @@ class DashboardPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Berhasil masuk ke dashboard!\nKlik tombol di kanan atas untuk kembali ke halaman login',
+              'Berhasil masuk ke dashboard!\nMasih dalam tahap pengembangan',
               style: TextStyle(fontSize: 24),
               textAlign: TextAlign.center,
             ),
